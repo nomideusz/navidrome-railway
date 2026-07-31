@@ -28,10 +28,10 @@
       },
       "networking": {
         "serviceDomains": {
-          "<hasDomain>": {
+          "<hasDomain>:4533": {
             "port": 4533
           },
-          "uploads": {
+          "<hasDomain>:8080": {
             "port": 8080
           }
         }
