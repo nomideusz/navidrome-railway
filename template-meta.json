@@ -1,0 +1,8 @@
+{
+  "id": "707cf32b-21c4-4fc0-b338-6fe88d390a69",
+  "code": "navidrome-1",
+  "name": "Navidrome | Music Server with Drag & Drop Uploads",
+  "description": "Self-hosted music streaming — your own Spotify with a drag-drop upload UI.",
+  "image": "https://raw.githubusercontent.com/navidrome/navidrome/master/resources/logo-192x192.png",
+  "category": "Other"
+}

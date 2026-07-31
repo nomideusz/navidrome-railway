@@ -1,0 +1,46 @@
+{
+  "buckets": {},
+  "services": {
+    "62092d06-6a1d-436e-82bb-a000886bff8c": {
+      "icon": "https://raw.githubusercontent.com/navidrome/navidrome/master/resources/logo-192x192.png",
+      "name": "navidrome",
+      "deploy": {
+        "startCommand": null,
+        "healthcheckPath": "/ping",
+        "restartPolicyType": "ON_FAILURE",
+        "restartPolicyMaxRetries": 10
+      },
+      "source": {
+        "repo": "https://github.com/nomideusz/navidrome-railway",
+        "rootDirectory": null
+      },
+      "variables": {
+        "PORT": {
+          "isOptional": false,
+          "description": "Port for Railway healthcheck probing. Do not change.",
+          "defaultValue": "4533"
+        },
+        "FILEBROWSER_PASSWORD": {
+          "isOptional": false,
+          "description": "Login password for the music upload panel (username: admin), applied on first boot. Minimum 12 characters.",
+          "defaultValue": "${{secret(24)}}"
+        }
+      },
+      "networking": {
+        "serviceDomains": {
+          "<hasDomain>": {
+            "port": 4533
+          },
+          "uploads": {
+            "port": 8080
+          }
+        }
+      },
+      "volumeMounts": {
+        "62092d06-6a1d-436e-82bb-a000886bff8c": {
+          "mountPath": "/data"
+        }
+      }
+    }
+  }
+}

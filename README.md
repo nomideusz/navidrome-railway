@@ -1,6 +1,6 @@
 # Deploy and Host Navidrome on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/navidrome-music-server?utm_medium=integration&utm_source=button&utm_campaign=navidrome)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/navidrome-1?utm_medium=integration&utm_source=button&utm_campaign=navidrome)
 
 [Navidrome](https://www.navidrome.org/) is a free and open source personal music server and streamer — a self-hosted Spotify for your own collection. It streams your music (FLAC, MP3, OGG, and more) to any device through a fast modern web player or any Subsonic-compatible app, with transcoding, playlists, smart search, and multi-user support built in.
 
