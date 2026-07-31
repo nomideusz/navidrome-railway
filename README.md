@@ -4,6 +4,10 @@
 
 [Navidrome](https://www.navidrome.org/) is a free and open source personal music server and streamer — a self-hosted Spotify for your own collection. It streams your music (FLAC, MP3, OGG, and more) to any device through a fast modern web player or any Subsonic-compatible app, with transcoding, playlists, smart search, and multi-user support built in.
 
+## Screenshots
+
+![Navidrome album library](https://raw.githubusercontent.com/nomideusz/navidrome-railway/main/images/01.jpg)
+
 ## About Hosting Navidrome
 
 This template runs Navidrome as a single Railway service with one extra superpower: a bundled [Filebrowser](https://filebrowser.org/) upload UI on its own domain. Railway volumes have no native upload path, so the Filebrowser panel is how your music gets onto the server — drag and drop entire album folders in the browser, and Navidrome's file watcher imports them within seconds, no rescan clicks needed. Music files, the Navidrome database, and Filebrowser settings all persist on the attached volume at `/data`. Transcoding runs on CPU via the bundled ffmpeg.
